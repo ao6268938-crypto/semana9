@@ -1,0 +1,10 @@
+Al ejecutar `node server.js`, el servidor se inicia y queda listo para recibir solicitudes.
+En la terminal aparece un mensaje indicando que el servidor está ejecutándose correctamente
+por ejemplo: "Servidor ejecutándose en http://localhost:3000".
+Al visitar la ruta `http://localhost:3000/estado`, el servidor responde con un objeto JSON que
+Respuesta de la ruta `/estado`:
+
+{
+  "estado": "Servidor funcionando",
+  "servicio": "API comunitaria"
+}
